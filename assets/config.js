@@ -1,5 +1,6 @@
-// 公開サイトの外部リンク。問い合わせフォームが決まったら contactForm を変更してください。
+// 外部フォームURLを設定してください。未設定は準備中表示となります。
 window.FBC_CONFIG = {
   entryForm: "https://forms.gle/jML6whNMKP97Z4hR8",
-  contactForm: ""
+  contactForm: "", // 一般お問い合わせフォーム
+  operationsForm: "" // eSports大会運営依頼用Googleフォーム
 };

@@ -1,1 +1,24 @@
-const menu=document.querySelector('.menu-button');const nav=document.querySelector('#site-nav');menu?.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'メニューを閉じる':'メニューを開く')});document.querySelectorAll('[data-setting-link]').forEach(el=>{const name=el.dataset.settingLink;const target=window.FBC_CONFIG?.[name];if(target&&/^https:\/\//.test(target)){el.href=target;el.target='_blank';el.rel='noopener noreferrer';el.removeAttribute('aria-disabled');el.classList.remove('disabled');el.textContent=name==='entryForm'?'参加表明フォームを開く ↗':'お問い合わせフォームを開く ↗'}});
+const menu = document.querySelector('.menu-button');
+const nav = document.querySelector('#site-nav');
+menu?.addEventListener('click', () => {
+  const open = nav.classList.toggle('open');
+  menu.setAttribute('aria-expanded', String(open));
+  menu.setAttribute('aria-label', open ? 'メニューを閉じる' : 'メニューを開く');
+});
+document.querySelectorAll('[data-setting-link]').forEach(el => {
+  const key = el.dataset.settingLink;
+  const url = window.FBC_CONFIG?.[key];
+  if (url && /^https:\/\//i.test(url)) {
+    el.href = url;
+    el.target = '_blank';
+    el.rel = 'noopener noreferrer';
+    el.removeAttribute('aria-disabled');
+    el.classList.remove('disabled');
+    const labels = {
+      entryForm: '参加表明フォームを開く ↗',
+      contactForm: 'お問い合わせフォームを開く ↗',
+      operationsForm: 'eSports大会運営について問い合わせる ↗'
+    };
+    el.textContent = el.dataset.readyLabel || labels[key] || 'フォームを開く ↗';
+  }
+});
