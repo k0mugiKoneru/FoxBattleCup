@@ -19,3 +19,16 @@
 
 /* FBC v4 brand and archive */
 .brand-image{display:block;width:76px;height:46px;object-fit:contain;flex-shrink:0}.brand{gap:10px}.footer-brand-image{display:block;width:min(300px,100%);height:auto;max-height:130px;object-fit:contain;object-position:left center}.hero-logo{width:min(510px,90%);height:auto;display:block;object-fit:contain;margin:10px 0 23px;filter:drop-shadow(0 18px 30px rgba(0,0,0,.23))}.history-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.history-card{background:rgba(125,156,196,.06);border:1px solid rgba(150,171,199,.25);padding:27px;border-radius:12px}.history-card-meta{display:flex;gap:16px;flex-wrap:wrap;align-items:center;font-size:.83rem;letter-spacing:.04em;opacity:.85}.history-tag{font-size:.69rem;border:1px solid currentColor;padding:4px 8px;border-radius:4px}.history-card h3{font-size:clamp(1.35rem,2.3vw,1.85rem);margin:15px 0 7px}.history-card p{margin:8px 0 14px;line-height:1.7}.history-date{font-size:.85rem;opacity:.85}.history-card .btn{margin-top:9px}.partner-panel{display:flex;gap:20px;align-items:center;justify-content:space-between;padding:30px;border-radius:12px;background:rgba(126,157,196,.09);border:1px solid rgba(151,171,196,.25);margin-top:18px}.partner-panel h3{font-size:1.5rem;margin:9px 0}.partner-panel p{margin:7px 0;line-height:1.65}.sponsor-archive{margin-top:32px}@media(max-width:760px){.history-grid{grid-template-columns:1fr}.partner-panel{align-items:flex-start;flex-direction:column}.brand-image{width:62px;height:43px}.hero-logo{width:min(380px,95%)}.history-card{padding:21px}}
+
+/* Ver.4.1: tournament-title page only. Headings +30%; body copy -50%. */
+.tournament-typography .page-hero h1{font-size:clamp(48px,11.7vw,153.4px)}
+.tournament-typography .section-heading h2{font-size:clamp(33.8px,4.42vw,50.7px)}
+.tournament-typography .event-card h3{font-size:28.6px}
+.tournament-typography .steps strong{font-size:20.8px}
+.tournament-typography .page-hero p{font-size:7.5px}
+.tournament-typography .event-card p:not(.date-display){font-size:6.5px}
+.tournament-typography .event-card .date-display{font-size:32px!important;line-height:1.4}
+.tournament-typography .event-card .date-display span{font-size:12.5px}
+.tournament-typography .steps p{font-size:6.5px}
+.tournament-typography .note{font-size:6px}
+@media(max-width:720px){.tournament-typography .page-hero h1{font-size:clamp(38px,10vw,92px);overflow-wrap:anywhere}.tournament-typography .event-card h3{font-size:clamp(23px,5vw,28.6px)}}
