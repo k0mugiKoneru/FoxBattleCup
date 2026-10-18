@@ -32,3 +32,8 @@
 .tournament-typography .steps p{font-size:6.5px}
 .tournament-typography .note{font-size:6px}
 @media(max-width:720px){.tournament-typography .page-hero h1{font-size:clamp(38px,10vw,92px);overflow-wrap:anywhere}.tournament-typography .event-card h3{font-size:clamp(23px,5vw,28.6px)}}
+
+/* Ver.4.1 revision: event detail rows and two requested text size changes. */
+.tournament-typography .event-card .date-display .event-detail-line{display:block;font-weight:900;overflow-wrap:anywhere}
+.tournament-typography .event-card p.season-copy{font-size:8.45px} /* 6.5px × 1.30 */
+.tournament-typography .note{font-size:8.4px} /* 6px × 1.40 */
