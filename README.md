@@ -1,34 +1,17 @@
-# FoxBattleCup 公式サイト ハイブリッドデザイン V2
+# FoxBattleCup 公式サイト Ver.4
 
-## 中身
-- `index.html` トップ（ダーク）
-- `news.html` ニュース（ダーク）
-- `tournaments.html` 大会タイトル（ダーク）
-- `archive.html` 過去開催（ダーク）
-- `about.html` 大会概要（ホワイト）
-- `entry.html` 参加表明（ダーク）
-- `contact.html` お問い合わせ（ホワイト）
-- `assets/style.css` レイアウト・配色
-- `assets/config.js` GoogleフォームURL設定
-- `assets/site.js` スマホメニュー・フォームリンク処理
+## 更新内容
+- 公式大会ロゴ：assets/fbc-logo.png（全ページのヘッダー・フッター、トップページ）
+- 過去5大会の開催日、名称、YouTubeアーカイブを追加（archive.html）
+- FoxBirthdayCupの協賛企業「ハタ鉱泉株式会社 様」を掲載
+- 参加表明フォーム：https://forms.gle/jML6whNMKP97Z4hR8 を assets/config.js に設定
 
-## 確認
-`index.html` をダブルクリックするとPC上で確認できます。
+## GitHub Pages 更新手順
+1. ZIPを解凍します。
+2. GitHubの k0mugikoneru/FoxBattleCup リポジトリのルートで Add file > Upload files を選択します。
+3. 解凍後のHTMLファイル7点、README.md、assets フォルダをアップロードします。既存ファイルは同じパスへ上書きします。
+4. Commit changes で保存します。反映には数分かかる場合があります。
 
-## フォーム設定
-1. Googleフォームで「参加表明」「お問い合わせ」を作成。
-2. 送信フォームの公開URLを取得。
-3. `assets/config.js` 内の `entryForm` と `contactForm` にURLを記入（引用符を残す）。
-4. 両ページのボタンが有効になります。URL未設定時はボタンは無効です。
+**注意：** `index.html` はリポジトリの最上位に置いてください。ロゴ画像を含む assets フォルダも忘れずにアップロードしてください。
 
-## 記事と大会情報の更新
-HTMLを直接編集してください。ニュース等を頻繁に更新する場合は将来CMS連携を推奨します。
-`FoxBattleCup Vol.4`（2026年12月）・2027シーズンは**計画段階**として仮掲載しています。正式な告知前に確認をお願いします。過去開催の結果は未確認のため未掲載です。
-
-## 無料公開（GitHub Pages）
-1. GitHubで新しいパブリックリポジトリを作成。
-2. 解凍後のフォルダ**内のファイルとassetsフォルダ**をリポジトリ直下へアップロード。
-3. Settings → Pages → Build and deployment → Deploy from a branch → main / root を指定して保存。
-4. 表示されたサイトURLを開きます。
-
-※GitHub Pagesは静的ホスティングで、Googleフォームは外部サービスです。個人情報の取り扱い・公開前の内容確認を忘れずに。
+お問い合わせフォームは未設定です。フォームが決まったら `assets/config.js` の `contactForm` にURLを記入してください。参加表明フォームは公開していますが、募集状況はフォーム内の記載が優先されます。過去大会の順位や結果は未確認のため掲載していません。

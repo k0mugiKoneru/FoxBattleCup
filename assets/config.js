@@ -1,5 +1,5 @@
-// Googleフォーム等のURLを設定します。空欄の場合、ボタンは「準備中」です。
+// 公開サイトの外部リンク。問い合わせフォームが決まったら contactForm を変更してください。
 window.FBC_CONFIG = {
-  entryForm: "", // 例: "https://docs.google.com/forms/d/e/XXXX/viewform"
+  entryForm: "https://forms.gle/jML6whNMKP97Z4hR8",
   contactForm: ""
 };
