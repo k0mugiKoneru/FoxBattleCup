@@ -29,3 +29,23 @@
 
 アップロード時は tournaments.html と assets/style.css の2ファイルだけ置き換えれば反映できます。
 GitHubのブラウザ画面でディレクトリ構造を維持してアップロードしてください。
+
+## Ver.4.1 修正版 v2（今回の更新）
+- 大会タイトルページの「2027年のシーズン展開を企画中。開催日程・形式は今後案内します。」を前版から50%拡大（8.45px → 12.675px）。
+- 大会タイトルページの「掲載している開催予定は計画段階の情報です。参加受付開始を保証するものではありません。」を前版から50%拡大（8.4px → 12.6px）。
+- その他の文字・ページは変更なし。GitHub上では `assets/style.css` のみの更新でOKです。
+
+
+## FoxBattleCup Vol.4 大会詳細（追加更新）
+
+- `tournament-vol4.html`: Vol.4大会詳細、試合形式、参加条件、ポイント表、提供された大会概要画像を掲載
+- `tournaments.html`: Vol.4カードから大会詳細へ移動できるように変更。従来の参加表明リンクも残しています。
+- `assets/tournament-detail.css`: 大会詳細ページだけに適用するCSS。以前のフォント調整は変更していません。
+- `assets/fbc-vol4-guide.jpg`: 支給されたVol.4大会概要画像。
+
+GitHub Pagesのリポジトリ `FoxBattleCup` のルートに、ZIPの中身をアップロードしてください。
+部分更新の場合は、上記4ファイルだけ追加・更新してください。
+
+**公開URL** `https://k0mugikoneru.github.io/FoxBattleCup/tournament-vol4.html`
+
+**注意** 最新の募集状況は主催者の案内で確認してください。掲載情報に変更があればHTML本文も更新してください。
