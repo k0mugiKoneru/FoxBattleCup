@@ -25,3 +25,9 @@
 URL: https://k0mugikoneru.github.io/FoxBattleCup/staff.html
 
 既存の参加表明フォームURL、2026年12月開催案内、過去5大会の配信URLは保持しています。
+
+
+## Ver.5.2 変更内容
+- 全ページで学生スタッフに関する表記を「チャレンジ学生」に統一。
+- 変更対象ファイル：about.html, index.html, staff.html
+- 大会のルールや参加条件、リンク、ロゴ等は変更していません。
