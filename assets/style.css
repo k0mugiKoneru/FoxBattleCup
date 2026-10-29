@@ -37,3 +37,25 @@
 .tournament-typography .event-card .date-display .event-detail-line{display:block;font-weight:900;overflow-wrap:anywhere}
 .tournament-typography .event-card p.season-copy{font-size:12.675px} /* 前版 8.45px × 1.50 */
 .tournament-typography .note{font-size:12.6px} /* 前版 8.4px × 1.50 */
+
+
+/* Ver.5.4: FBC official X integration */
+.fbc-nav-x{display:inline-flex!important;align-items:center;color:#fff!important;background:#202d40;border:1px solid #526278;border-radius:7px;padding:7px 11px;line-height:1.4;transition:background .2s,border-color .2s}
+.fbc-nav-x:hover{background:#2b465e;border-color:#71e5ed;color:#71e5ed!important}
+.footer-x-link{margin-top:8px;color:#90eaf0!important;font-weight:700}
+.fbc-x-section{background:linear-gradient(135deg,#0a1627,#132c42);border-top:1px solid rgba(255,255,255,.1);border-bottom:1px solid rgba(255,255,255,.1)}
+.fbc-x-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:38px;align-items:start}
+.fbc-x-intro{padding-top:8px}
+.fbc-x-eyebrow{color:#7fe3e7;font:700 13px 'Barlow Condensed',sans-serif;letter-spacing:.12em}
+.fbc-x-intro h3{font-size:clamp(1.6rem,3.2vw,2.6rem);line-height:1.35;letter-spacing:-.025em;margin:16px 0 22px;overflow-wrap:anywhere}
+.fbc-x-intro>p:not(.fbc-x-eyebrow):not(.fbc-x-note){color:#c2d2e0;font-size:14px;line-height:2}
+.fbc-x-links{margin:25px 0}
+.fbc-x-note{font-size:11px;color:#aebfd0;line-height:1.8}
+.fbc-x-feed-shell{min-width:0;min-height:520px;background:#0d1928;border:1px solid #41516b;border-radius:12px;padding:12px;overflow:hidden}
+.fbc-x-feed-shell .twitter-timeline{display:block;color:#79e8ee;text-decoration:underline;padding:20px 8px;font-size:14px}
+.news-x-cta{margin-top:38px;padding:25px 28px;background:rgba(40,82,110,.24);border:1px solid #46617b;border-radius:10px;display:flex;gap:25px;align-items:center;justify-content:space-between}
+.news-x-cta strong{font-size:16px}.news-x-cta p{font-size:13px;color:#bfcddc;margin:.5rem 0 0}.news-x-cta .btn{flex-shrink:0}
+.entry-x-link{display:inline-block;margin-top:15px;color:#7fe3e7;font-weight:700;font-size:13px;text-decoration:underline;text-underline-offset:4px}
+.vol4-final-cta p a{color:#7fe3e7;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:800px){.fbc-x-grid{grid-template-columns:1fr;gap:22px}.fbc-x-feed-shell{min-height:380px}.news-x-cta{flex-direction:column;align-items:flex-start}}
+@media(max-width:720px){.fbc-x-intro h3{font-size:26px}.fbc-x-feed-shell{padding:8px}.news-x-cta{padding:20px}}

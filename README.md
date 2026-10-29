@@ -31,3 +31,28 @@ URL: https://k0mugikoneru.github.io/FoxBattleCup/staff.html
 - 全ページで学生スタッフに関する表記を「チャレンジ学生」に統一。
 - 変更対象ファイル：about.html, index.html, staff.html
 - 大会のルールや参加条件、リンク、ロゴ等は変更していません。
+
+
+## Ver.5.3 ニュース更新（2026-10-19）
+- `news.html`：FoxBattleCup Vol.4のエントリー開始を最上段へ追加。
+- `news-vol4-entry.html`：ニュース記事の新規ページ。大会概要、参加条件案内、Googleフォームへの「参加表明フォームを開く」ボタンを設置。
+- `index.html`：TOPのニュース欄にもエントリー開始を追加。
+- `assets/news-article.css`：ニュース用の追加スタイル（他ページのデザインを変更しません）。
+- 日時、参加予定60名、ルール、フォームURLは既存データを継承。受付締切や選考方法は未設定のため掲載していません。
+
+**GitHubへの更新：** `index.html`、`news.html`、`news-vol4-entry.html`、`assets/news-article.css` を既存のリポジトリ直下へアップロードしてください。CSSは `assets` フォルダ内に置いてください。
+
+**記事URL（アップロード後）**：https://k0mugikoneru.github.io/FoxBattleCup/news-vol4-entry.html
+
+
+## Ver.5.4: 公式X連携（2026-10-29）
+- 公式X： https://x.com/foxcup_official （@foxcup_official）
+- 全ページのヘッダー・フッターに公式Xリンクを追加しました。
+- TOPページに公式Xの埋め込みタイムラインを設置しました。
+- NEWS・参加表明・Vol.4詳細ページにも公式Xへの導線を追加しました。
+- XタイムラインはXの公式ウィジェット `https://platform.x.com/widgets.js` を利用します。APIキーは不要です。
+- 埋め込みがX側の仕様・ブラウザ設定等で表示されない環境でも、公式Xへ移動できるリンクは残します。
+
+### GitHub Pages更新
+`FBC_v5_4_X_GitHub_update.zip` を解凍し、**中のファイルとassetsフォルダをそのままリポジトリのルートへ上書き**してください。
+ZIPファイルや上位フォルダをそのまま配置しないでください。
