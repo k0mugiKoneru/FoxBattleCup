@@ -1,3 +1,32 @@
+# FBC公式サイト Ver.5.5 / Vol.4 エントリー受付終了（2026-10-31）
+
+Ver.5.4からの更新です。
+
+- ニュース一覧に受付終了告知を追加し、`news-vol4-closed.html` を新規作成
+- 参加表明ページを受付終了表示に変更し、Vol.4の送信リンクを削除
+- TOP・大会一覧・Vol.4詳細ページの募集状況を受付終了に更新
+- 過去の募集開始記事に受付終了注記を追加し、旧フォームリンクを削除
+- `assets/config.js` の `entryForm` を空欄に設定
+- `assets/entry-closed.css` を新規追加
+
+**重要：この更新はWebサイトの表示・リンクを変更するものです。Googleフォーム側の回答受付は自動停止しません。** Googleフォームの管理画面で「回答を受け付ける」をオフにし、受付終了メッセージを設定してください。SNSなどに貼った既存URLからの回答も止めるために必要です。
+
+## GitHubへの反映
+`FBC_v5_5_entry_closed_GitHub_update.zip`を解凍し、中身のファイルをリポジトリルートに同じフォルダ構成でアップロードしてください。`.zip`自体はアップロードしないでください。
+
+変更対象：
+- `news.html`
+- `news-vol4-closed.html`
+- `news-vol4-entry.html`
+- `entry.html`
+- `index.html`
+- `tournaments.html`
+- `tournament-vol4.html`
+- `assets/config.js`
+- `assets/entry-closed.css`
+
+---
+
 # FoxBattleCup公式サイト — スタッフ紹介・eSports運営依頼追加版（Ver.5）
 
 ## 追加内容

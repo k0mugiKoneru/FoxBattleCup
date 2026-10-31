@@ -1,0 +1,19 @@
+/* FBC Vol.4 Entry Closed — 2026-10-31. Additive styles; original design remains unchanged. */
+.fbc-label-closed{display:inline-block;padding:5px 11px;border:1px solid #ef9b75;color:#ffd0ad;background:rgba(214,99,61,.13);font-size:12px;font-weight:800;letter-spacing:.035em;vertical-align:middle}
+.fbc-category-closed{color:#ffd0ad;border-color:#ef9b75;background:#643b3033}
+.fbc-closed-box{margin:20px 0;padding:clamp(22px,3vw,32px);background:linear-gradient(130deg,#3b2830,#202b3e);border:1px solid #a16a62;border-left:5px solid #f4a46d;color:#fff}
+.fbc-closed-box h2,.fbc-closed-box h3{margin:8px 0 12px;font-size:clamp(19px,2.3vw,26px);line-height:1.5;color:#fff}
+.fbc-closed-box p{color:#ecddd6;line-height:1.85;margin:8px 0 0;font-size:clamp(14px,1.4vw,16px)}
+.fbc-closed-box a,.fbc-vol4-closed-line a{color:#9fe8f0;text-decoration:underline;text-underline-offset:3px}
+.fbc-closed-eyebrow{color:#ffbf9d!important;font-weight:800;letter-spacing:.09em;font-size:12px}
+.fbc-closed-heading{display:block;font-size:clamp(18px,2vw,23px);line-height:1.5}
+.fbc-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.fbc-actions .btn{min-height:48px;justify-content:center}
+.fbc-disabled-action{display:inline-flex;align-items:center;justify-content:center;min-height:47px;padding:12px 20px;border:1px solid #bb9c91;background:#342c34;color:#f6d8cc;font-size:13px;font-weight:800;cursor:default;line-height:1.5}
+.fbc-home-closed-note{font-weight:700!important;font-size:14px!important;color:#f0d1bf!important;line-height:1.9!important;margin:14px 0!important}
+.fbc-home-closed-note .fbc-label-closed{margin-right:8px}
+.fbc-closed-news-card{border-left:4px solid #eaa779!important}
+.news-post-label.fbc-label-closed{background:#63403633;color:#ffd0ad;border-color:#ef9b75}
+.fbc-closed-cta{border-color:#b37c66!important}
+.fbc-vol4-closed-line{padding:12px 16px;border-left:4px solid #f4a46d;background:rgba(74,39,43,.72);color:#f5d3c3!important;font-size:14px;line-height:1.8;margin:20px 0}
+@media(max-width:650px){.fbc-actions{flex-direction:column}.fbc-actions .btn{width:100%;text-align:center}.fbc-closed-box{padding:20px}.fbc-disabled-action{max-width:100%}}
